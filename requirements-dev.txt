@@ -1,0 +1,2 @@
+# ROS dependencies are installed with rosdep, not this file.
+PyYAML>=6.0,<7.0

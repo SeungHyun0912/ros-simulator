@@ -1,0 +1,10 @@
+schema_version: 1
+description: 'Runnable mock: one AMR'
+devices:
+- device_id: amr_01
+  type: amr
+  namespace: /amr_01
+  initial_position:
+  - 0.0
+  - 0.0
+  speed_mps: 1.0

@@ -1,0 +1,26 @@
+# Fill with OBSERVED values; null means not verified.
+document_date_kst: "2026-09-21"
+host:
+  os: null
+  cpu: null
+  ram_gb: null
+  gpu_model: null
+  vram_gb: null
+  driver: null
+ros:
+  distro: jazzy
+  python_version: null
+  rmw: rmw_fastrtps_cpp
+  domain_id: 42
+isaac:
+  version: null
+  installation_method: null
+  python_version: null
+  bridge_version: null
+  documentation_url: null
+validation:
+  ros_build_passed: false
+  mock_action_passed: false
+  isaac_import_passed: false
+  bridge_roundtrip_passed: false
+  run_id: null

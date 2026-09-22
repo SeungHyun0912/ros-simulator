@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Test: pure Python (no ROS/GPU)",
+      "type": "shell",
+      "command": "python3 scripts/run_unit_tests.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "ROS: build (sourced ROS required)",
+      "type": "shell",
+      "command": "bash scripts/build_ros.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "ROS: run mock AMR",
+      "type": "shell",
+      "command": "bash scripts/run_mock.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

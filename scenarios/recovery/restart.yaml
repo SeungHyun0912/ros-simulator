@@ -1,0 +1,3 @@
+name: restart_reconcile
+status: not_implemented
+expected: Explicitly detect changed run_id; no false success

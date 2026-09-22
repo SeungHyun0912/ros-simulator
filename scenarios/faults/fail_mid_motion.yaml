@@ -1,0 +1,8 @@
+name: fail_mid_motion
+status: reference_only
+device: amr_01
+launch_fail_after_s: 1.0
+goal:
+  target_x: 10.0
+  target_y: 0.0
+expected: aborted

@@ -1,0 +1,6 @@
+status: design_only_not_implemented
+backend: isaac
+headless: false
+use_sim_time: true
+clock_owner: isaac
+render_sensors: false

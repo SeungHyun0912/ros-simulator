@@ -1,0 +1,103 @@
+schema_version: 1
+description: 'Planning ONLY: cobot runtime not implemented. Launch intentionally rejects.'
+devices:
+- device_id: amr_01
+  type: amr
+  namespace: /amr_01
+  initial_position:
+  - 0.0
+  - 0.0
+  speed_mps: 1.0
+- device_id: amr_02
+  type: amr
+  namespace: /amr_02
+  initial_position:
+  - 2.0
+  - 0.0
+  speed_mps: 1.0
+- device_id: amr_03
+  type: amr
+  namespace: /amr_03
+  initial_position:
+  - 4.0
+  - 0.0
+  speed_mps: 1.0
+- device_id: amr_04
+  type: amr
+  namespace: /amr_04
+  initial_position:
+  - 6.0
+  - 0.0
+  speed_mps: 1.0
+- device_id: amr_05
+  type: amr
+  namespace: /amr_05
+  initial_position:
+  - 8.0
+  - 0.0
+  speed_mps: 1.0
+- device_id: amr_06
+  type: amr
+  namespace: /amr_06
+  initial_position:
+  - 0.0
+  - 3.0
+  speed_mps: 1.0
+- device_id: amr_07
+  type: amr
+  namespace: /amr_07
+  initial_position:
+  - 2.0
+  - 3.0
+  speed_mps: 1.0
+- device_id: amr_08
+  type: amr
+  namespace: /amr_08
+  initial_position:
+  - 4.0
+  - 3.0
+  speed_mps: 1.0
+- device_id: amr_09
+  type: amr
+  namespace: /amr_09
+  initial_position:
+  - 6.0
+  - 3.0
+  speed_mps: 1.0
+- device_id: amr_10
+  type: amr
+  namespace: /amr_10
+  initial_position:
+  - 8.0
+  - 3.0
+  speed_mps: 1.0
+- device_id: cobot_01
+  type: cobot
+  namespace: /cobot_01
+  initial_position:
+  - 0.0
+  - 8.0
+- device_id: cobot_02
+  type: cobot
+  namespace: /cobot_02
+  initial_position:
+  - 2.0
+  - 8.0
+- device_id: cobot_03
+  type: cobot
+  namespace: /cobot_03
+  initial_position:
+  - 4.0
+  - 8.0
+- device_id: cobot_04
+  type: cobot
+  namespace: /cobot_04
+  initial_position:
+  - 6.0
+  - 8.0
+- device_id: cobot_05
+  type: cobot
+  namespace: /cobot_05
+  initial_position:
+  - 8.0
+  - 8.0

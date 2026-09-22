@@ -1,0 +1,27 @@
+# Build outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+# Run outputs, keep directory guide
+artifacts/*
+!artifacts/README.md
+# Local installation / secrets
+.env
+.env.local
+*.local.yaml
+.vscode/*.local.json
+# Large downloaded assets / recordings
+assets/downloads/*
+!assets/downloads/README.md
+*.bag
+*.db3
+*.mcap
+.DS_Store

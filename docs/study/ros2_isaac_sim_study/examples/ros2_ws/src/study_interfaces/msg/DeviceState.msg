@@ -1,0 +1,9 @@
+builtin_interfaces/Time stamp
+string device_id
+string boot_id
+uint64 sequence
+string task_id
+string phase
+float64 x
+float64 y
+string detail

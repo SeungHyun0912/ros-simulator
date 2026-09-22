@@ -1,0 +1,10 @@
+# Contract draft ONLY: cobot server is not implemented.
+string command_id
+string program_id
+---
+bool success
+string error_code
+string detail
+---
+string phase
+float32 progress

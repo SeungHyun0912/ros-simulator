@@ -1,0 +1,13 @@
+name: Pure Python unit tests
+'on':
+  push: null
+  pull_request: null
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run CPU-only tests
+      run: python3 scripts/run_unit_tests.py
+    - name: Compile Python syntax
+      run: python3 -m compileall -q ros2_ws/src isaac_sim scripts tests

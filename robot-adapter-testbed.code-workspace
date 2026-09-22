@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/__pycache__": true
+    },
+    "files.watcherExclude": {
+      "**/ros2_ws/build/**": true,
+      "**/ros2_ws/install/**": true,
+      "**/artifacts/**": true
+    }
+  }
+}

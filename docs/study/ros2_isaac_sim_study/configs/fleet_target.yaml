@@ -1,0 +1,10 @@
+# Design target; not consumed by fleet.launch.py in this teaching package.
+schema_version: 1
+amr_count: 10
+cobot_count: 5
+backend: mock
+ros_domain_id: 42
+clock_policy:
+  task_timeout: wall_monotonic
+  watchdog: wall_monotonic
+  state_stamp: ros_clock

@@ -1,0 +1,14 @@
+status: design_reference
+external_namespace: /<device_id>
+move_action: move_to
+state_topic: state
+state_qos:
+  reliability: reliable
+  durability: volatile
+  depth: 10
+mock_time: wall
+isaac_time: simulation (future)
+internal_isaac_proposed:
+  cmd_vel: geometry_msgs/msg/Twist
+  odom: nav_msgs/msg/Odometry
+  clock: rosgraph_msgs/msg/Clock

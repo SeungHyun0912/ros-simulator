@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>testbed_devices</name>
+  <version>0.1.0</version>
+  <description>Adapter testbed scaffold: testbed_devices</description>
+  <maintainer email="maintainer@example.invalid">Testbed Maintainer</maintainer>
+  <license>UNLICENSED</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>testbed_interfaces</exec_depend>
+  <exec_depend>testbed_backends</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

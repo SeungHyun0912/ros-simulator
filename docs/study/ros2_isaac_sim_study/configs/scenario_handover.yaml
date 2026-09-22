@@ -1,0 +1,19 @@
+# Exercise specification, not an executable scenario runner.
+id: handover_001
+participants: [amr_01, cobot_01, conveyor_01]
+preconditions:
+  - cell_reserved_with_epoch
+  - cargo_id_matches
+steps:
+  - send_amr_move
+  - verify_docked_and_stopped
+  - request_cobot_program
+  - verify_cargo_transfer
+  - release_cell
+fault_variants:
+  - communication_stale_before_program
+  - delayed_completion_from_previous_epoch
+  - conveyor_output_occupied
+acceptance:
+  - no_duplicate_cargo_owner
+  - no_program_start_when_interlock_false

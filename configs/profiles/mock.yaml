@@ -1,0 +1,5 @@
+status: reference_only_not_auto_loaded
+backend: mock
+use_sim_time: false
+status_hz: 5.0
+fail_after_s: -1.0

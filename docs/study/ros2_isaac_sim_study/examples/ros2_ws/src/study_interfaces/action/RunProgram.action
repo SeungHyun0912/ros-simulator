@@ -1,0 +1,10 @@
+# SCHEMA ONLY: no ROS server is provided in this lesson.
+string task_id
+string program_id
+string cargo_id
+uint64 cell_epoch
+---
+bool success
+string code
+---
+string phase

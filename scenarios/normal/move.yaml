@@ -1,0 +1,8 @@
+name: move_success
+status: reference_only
+device: amr_01
+goal:
+  target_x: 2.0
+  target_y: 0.0
+expected: succeeded
+timeout_wall_s: 30

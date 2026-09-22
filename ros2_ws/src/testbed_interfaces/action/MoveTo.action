@@ -1,0 +1,12 @@
+# Planar straight-line mock motion; map frame, metres.
+string command_id
+float64 target_x
+float64 target_y
+---
+bool success
+string error_code
+string detail
+---
+float64 x
+float64 y
+float32 progress

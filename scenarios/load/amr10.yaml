@@ -1,0 +1,9 @@
+name: amr10_concurrent
+status: not_implemented
+fleet: configs/fleets/mock_amr10.yaml
+metrics:
+- latency_p95_ms
+- latency_p99_ms
+- process_rss_mb
+- completed
+- failed
